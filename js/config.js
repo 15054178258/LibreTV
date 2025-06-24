@@ -115,10 +115,21 @@ const API_SITES = {
         name: '空内容测试源',
         adult: true
     },
-    testSource: {
+    xb: {
         api: 'https://xingba111.com/api.php/provide/vod',
-        name: '杏吧',
-        adult: true
+        name: '杏吧(18x)'
+    },
+    dnz: {
+        api: 'https://apidanaizi.com/api.php/provide/vod',
+        name: '大奶子(18x)'
+    },
+    hsck: {
+        api: 'https://hsckzy.vip/api.php/provide/vod',
+        name: '黄色仓库(18x)'
+    },
+    xj: {
+        api: 'https://api.xiaojizy.live/provide/vod',
+        name: '小鸡(18x)'
     },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
